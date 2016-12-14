@@ -1,0 +1,42 @@
+{
+    "author": "Christophe.Jeannette@Gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "running",
+    "pebble": {
+        "displayName": "Running Assistant",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/ICON_WALK",
+                    "name": "ICON_WALK",
+                    "type": "png"
+                },
+                {
+                    "file": "images/ICON_STOP",
+                    "name": "ICON_STOP",
+                    "type": "png"
+                },
+                {
+                    "file": "images/ICON_RUN",
+                    "name": "ICON_RUN",
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "b82e6603-1b9b-496c-b694-9cfc299fc469",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.1.0"
+}
