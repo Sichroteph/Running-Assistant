@@ -130,12 +130,12 @@ void update_screen (Layer *me, GContext *ctx) {
   
 #else
    if (is_running) {
-      graphics_draw_text(ctx, "W",  fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK), 
+      graphics_draw_text(ctx, "R",  fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK), 
                      GRect((bounds.size.w-100)/2-1, bounds.size.h/2-58, 100, 63), 
                      GTextOverflowModeWordWrap,
                      GTextAlignmentCenter, NULL);
       } else {
-          graphics_draw_text(ctx, "R",  fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK), 
+          graphics_draw_text(ctx, "W",  fonts_get_system_font(FONT_KEY_BITHAM_30_BLACK), 
                      GRect((bounds.size.w-100)/2-1, bounds.size.h/2-58, 100, 63), 
                      GTextOverflowModeWordWrap,
                      GTextAlignmentCenter, NULL);
